@@ -60,3 +60,10 @@ body {
 .text-shadow {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
+
+@media screen and (max-width: 576px) {
+  .avatar-lg {
+    height: 150px;
+    width: 150px;
+  }
+}
